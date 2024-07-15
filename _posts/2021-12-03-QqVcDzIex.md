@@ -4,13 +4,7 @@ author: 囧囧JOJO
 top: false
 cover: false
 mathjax: false
-tags:
-  - Hive
-  - Hadoop
-  - 笔记
-  - 入门
-  - 教程
-  - Docker
+tags: [Hive, Hadoop, 教程, 入门, 笔记, Docker]
 date: 2021-12-03 10:53:53
 img:
 coverImg:

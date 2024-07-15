@@ -4,10 +4,7 @@ author: 囧囧JOJO
 top: false
 cover: false
 mathjax: false
-tags:
-  - Docker
-  - 教程
-  - 入门
+tags: [Docker, 教程, 入门]
 date: 2021-09-14 20:56:24
 img:
 coverImg:

@@ -5,6 +5,7 @@
 
 - type: telegram
   icon: "fab fa-telegram"
+  url: 'https://t.me/jiongjiongJOJO'
 
 - type: email
   icon: "fas fa-envelope"

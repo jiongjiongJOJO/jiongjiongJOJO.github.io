@@ -43,7 +43,7 @@ social:
 
 # Site Verification Settings
 webmaster_verifications:
-  google: # fill in your Google verification code
+  google: <!-- Google tag (gtag.js) --><script async src="https://www.googletagmanager.com/gtag/js?id=G-48JS2F3YB9"></script><script>  window.dataLayer = window.dataLayer || [];  function gtag(){dataLayer.push(arguments);}  gtag('js', new Date());  gtag('config', 'G-48JS2F3YB9');</script>
   bing: # fill in your Bing verification code
   alexa: # fill in your Alexa verification code
   yandex: # fill in your Yandex verification code

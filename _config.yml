@@ -199,6 +199,9 @@ compress_html:
   ignore:
     envs: [development]
 
+plugins:
+  - jekyll-toc
+
 exclude:
   - "*.gem"
   - "*.gemspec"

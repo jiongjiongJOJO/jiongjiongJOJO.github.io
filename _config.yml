@@ -56,7 +56,16 @@ webmaster_verifications:
   bing: # fill in your Bing verification code
   alexa: # fill in your Alexa verification code
   yandex: # fill in your Yandex verification code
-  baidu: # fill in your Baidu verification code
+  baidu: >
+    <script>
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "https://hm.baidu.com/hm.js?98a1e0d8f417805baf27bc68f0557766";
+      var s = document.getElementsByTagName("script")[0]; 
+      s.parentNode.insertBefore(hm, s);
+    })();
+    </script>
   facebook: # fill in your Facebook verification code
 
 # ↑ --------------------------

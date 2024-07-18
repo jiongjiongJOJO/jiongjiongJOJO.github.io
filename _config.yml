@@ -216,6 +216,7 @@ exclude:
 
 include:
   - assets/images
+  - googlef72a262a9d619322.html
 
 jekyll-archives:
   enabled: [categories, tags]

@@ -4,7 +4,7 @@ author: 囧囧JOJO
 top: false
 cover: false
 mathjax: false
-tags: [Linux, 驱动, 网卡, Ubuntu]
+tags: [git]
 date: 2024-10-10 09:39:23 +0800
 img:
 coverImg:

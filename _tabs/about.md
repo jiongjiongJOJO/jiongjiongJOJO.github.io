@@ -48,3 +48,17 @@ QQ：41473909
 WeChat: jiongjiong_JOJO
 Email：41473909@qq.com  /  jiongjiong.jojo@gmail.com
 ```
+
+## 🔗 友情链接
+<div style="display: flex; align-items: center;">
+    <a href="https://linux.do/?source=blog_jojo_host" title="新的理想型社区" target="_blank">
+        <img src="../assets/images/friendly_links/linux_do.png" alt="LINUX DO" style="width: 48px; height: auto;">
+    </a>
+    <div style="margin-left: 10px;">
+        <strong>
+            <a href="https://linux.do/?source=blog_jojo_host" title="新的理想型社区" target="_blank">LINUX DO</a>
+        </strong>
+        <br>
+        新的理想型社区
+    </div>
+</div>

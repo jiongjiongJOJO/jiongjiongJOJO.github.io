@@ -99,25 +99,25 @@ toc: true
 
 comments:
     # 全局切换文章评论系统。保持为空表示禁用。
-    provider: disqus  # [disqus | utterances | giscus]
+    provider: giscus  # [disqus | utterances | giscus]
     # 提供商选项如下：
     disqus:
-        shortname: jojo-blog  # 填写 Disqus 的 shortname › https://help.disqus.com/en/articles/1717111-what-s-a-shortname
+        shortname: # 填写 Disqus 的 shortname › https://help.disqus.com/en/articles/1717111-what-s-a-shortname
     # utterances 设置 › https://utteranc.es/
     utterances:
         repo: # <gh-username>/<repo>
         issue_term: # < url | pathname | title | ...>
     # Giscus 设置 › https://giscus.app
     giscus:
-        repo: # <gh-username>/<repo>
-        repo_id:
-        category:
-        category_id:
-        mapping: # 可选，默认为 'pathname'
-        strict: # 可选，默认为 '0'
-        input_position: # 可选，默认为 'bottom'
-        lang: # 可选，默认为 `site.lang` 的值
-        reactions_enabled: # 可选，默认为 '1'
+        repo: jiongjiongJOJO/jiongjiongJOJO.github.io  # <gh-username>/<repo>
+        repo_id: R_kgDOMWaK8w
+        category: Announcements
+        category_id: DIC_kwDOMWaK884CkOO4
+        mapping: title  # 可选，默认为 'pathname'
+        strict: 0  # 可选，默认为 '0'
+        input_position: top  # 可选，默认为 'bottom'
+        lang: zh-CN  # 可选，默认为 `site.lang` 的值
+        reactions_enabled: 1  # 可选，默认为 '1'
 
 # 自托管静态资源， 可选 › https://github.com/cotes2020/chirpy-static-assets
 assets:

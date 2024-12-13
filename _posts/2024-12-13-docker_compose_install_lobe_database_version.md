@@ -100,7 +100,7 @@ volumes:
     
 ### .env文件
 
-```env
+```
 # 必填，LobeChat 域名，用于 tRPC 调用
 # 请保证此域名在你的 NextAuth 鉴权服务提供商、S3 服务商的 CORS 白名单中
 APP_URL=https://NEW_DOMAIN/
@@ -184,7 +184,7 @@ http {
 }
 ```
 
-## run.sh文件
+### run.sh文件
 
 ```bash
 #!/bin/bash
@@ -229,7 +229,7 @@ docker compose up -d
 ### env.txt文件
 这个文件内容主要是用于统一整理所需要的参数，后面方便替换。 暂时可以先复制内容，根据后文获取到对应的数据后，再进行修改：
 
-```txt
+```
 # 域名地址
 NEW_DOMAIN=xxxxxx
 
@@ -316,7 +316,7 @@ NEW_AUTH_GITHUB_SECRET=32bec1548326955fdd3dfc6b88bfa5c89cf1a37a
 
 如果完成了以上内容，则我们已经得到了一个完整的`env.txt`文件。
 
-### 直接运行
+## 直接运行
 
 在终端中执行以下命令：
 ```bash

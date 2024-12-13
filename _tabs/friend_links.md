@@ -14,12 +14,13 @@ toc: false
              onmouseout="this.style.backgroundColor='transparent';">
         <div style="width: 48px; height: 48px; background-image: url('../assets/images/friendly_links/linux_do.png'); background-size: contain; background-repeat: no-repeat; background-position: center;"></div>
         <div style="margin-left: 10px;">
-            <strong>LINUX DO</strong>
+            <a href="https://linux.do/?source=blog_jojo_host" target="_blank" style="text-decoration: none; color: inherit;"><strong>LINUX DO</strong></a>
             <br>
             新的理想型社区
         </div>
     </section>
 </div>
+
 
 ## 如何申请友链
 

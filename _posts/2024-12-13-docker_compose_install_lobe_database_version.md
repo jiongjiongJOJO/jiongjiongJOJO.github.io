@@ -189,15 +189,12 @@ http {
 ```bash
 #!/bin/bash
 
+# 定义要修改的文件列表
+files=("docker-compose.yml" ".env" "nginx.conf")
+
 # 检查 env.txt 文件是否存在
 if [ ! -f "env.txt" ]; then
   echo "错误: env.txt 文件不存在"
-  exit 1
-fi
-
-# 检查 docker-compose.yml 文件是否存在
-if [ ! -f "docker-compose.yml" ]; then
-  echo "错误: docker-compose.yml 文件不存在"
   exit 1
 fi
 
@@ -214,16 +211,27 @@ while IFS= read -r line; do
   # 去除 key 前后的空格
   key=$(echo "$key" | sed 's/^[[:space:]]*//;s/[[:space:]]*$//')
 
+   # 对 value 中的特殊字符进行转义
+  escaped_value=$(echo "$value" | sed 's/[\/&]/\\&/g;s/\+/\\+/g;s/=/\=/g;s/\./\\./g')
+
   # 如果 key 不为空，则执行替换
   if [[ -n "$key" ]]; then
-    # 使用 sed 命令进行替换
-    sed -i "s/${key}/${value}/g" docker-compose.yml
-    sed -i "s/${key}/${value}/g" .envl
-    sed -i "s/${key}/${value}/g" nginx.conf
+    # 循环遍历文件列表
+    for file in "${files[@]}"; do
+      # 检查文件是否存在
+      if [ -f "$file" ]; then
+        # 使用 sed 命令进行替换，如果不存在则不替换
+        sed -i "s/${key}/${escaped_value}/g" "$file"
+      fi
+    done
   fi
 done < "env.txt"
 
-docker compose up -d
+echo "文件替换完成"
+
+# 执行 docker compose up -d
+
+echo "docker compose up -d 执行完成"
 ```
 
 ### env.txt文件

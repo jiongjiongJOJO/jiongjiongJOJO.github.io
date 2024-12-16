@@ -230,7 +230,7 @@ done < "env.txt"
 echo "文件替换完成"
 
 # 执行 docker compose up -d
-
+docker compose up -d
 echo "docker compose up -d 执行完成"
 ```
 

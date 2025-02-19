@@ -7,18 +7,44 @@ toc: false
 
 ## 我们的朋友
 
-<div style="display: flex; flex-wrap: wrap;">
-    <section style="display: flex; align-items: center; margin-right: 20px; margin-bottom: 20px; cursor: pointer; padding: 10px; border-radius: 8px; transition: background-color 0.3s;"
-             onclick="window.open('https://www.cloudofficial.top/?source=blog_jojo_host', '_blank')"
-             onmouseover="this.style.backgroundColor='rgba(255, 0, 255, 0.1)';"
-             onmouseout="this.style.backgroundColor='transparent';">
-        <div style="width: 48px; height: 48px; background-image: url('../assets/images/friendly_links/Cloud.ico'); background-size: contain; background-repeat: no-repeat; background-position: center;"></div>
-        <div style="margin-left: 10px;">
-            <a href="https://www.cloudofficial.top/?source=blog_jojo_host" target="_blank" style="text-decoration: none; color: inherit;"><strong>Cloud</strong></a>
-            <br>
-            <span>写作即自由</span>            
-        </div>
-    </section>
+<div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px;">
+  <section style="display: flex; align-items: center; padding: 10px; border-radius: 8px; transition: background-color 0.3s; cursor: pointer; background-color: transparent;"
+           onclick="window.open('https://www.cloudofficial.top/?source=blog_jojo_host', '_blank')"
+           onmouseover="this.style.backgroundColor='rgba(255, 0, 255, 0.3)';"
+           onmouseout="this.style.backgroundColor='transparent'">
+    <div style="flex-shrink: 0; width: 48px; height: 48px; background-image: url('../assets/images/friendly_links/Cloud.ico'); background-size: contain;"></div>
+    <div style="margin-left: 12px; min-width: 0;">
+      <a href="https://www.cloudofficial.top/?source=blog_jojo_host" target="_blank" 
+         style="display: block; font-weight: 500; text-decoration: none; color: inherit; 
+                white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">
+        Cloud
+      </a>
+      <div style="font-size: 0.9em; color: #666; 
+                  display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;
+                  overflow: hidden; text-overflow: ellipsis; line-height: 1.4;">
+        写作即自由
+      </div>
+    </div>
+  </section>
+
+  <section style="display: flex; align-items: center; padding: 10px; border-radius: 8px; transition: background-color 0.3s; cursor: pointer; background-color: transparent;"
+           onclick="window.open('https://smc.im/?source=blog_jojo_host', '_blank')"
+           onmouseover="this.style.backgroundColor='rgba(255, 0, 255, 0.3)';"
+           onmouseout="this.style.backgroundColor='transparent'">
+    <div style="flex-shrink: 0; width: 48px; height: 48px; background-image: url('../assets/images/friendly_links/Choi.ico'); background-size: contain;"></div>
+    <div style="margin-left: 12px; min-width: 0;">
+      <a href="https://smc.im/?source=blog_jojo_host" target="_blank" 
+         style="display: block; font-weight: 500; text-decoration: none; color: inherit;
+                white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">
+        Choi's Notes
+      </a>
+      <div style="font-size: 0.9em; color: #666;
+                  display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;
+                  overflow: hidden; text-overflow: ellipsis; line-height: 1.4;">
+        记录生活，记录技术，记录折腾
+      </div>
+    </div>
+  </section>
 </div>
 
 

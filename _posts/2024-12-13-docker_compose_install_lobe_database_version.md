@@ -4,7 +4,7 @@ author: 囧囧JOJO
 top: false
 cover: false
 mathjax: false
-tags: [docker, GPT, LLM]
+tags: [Docker, GPT, LLM]
 date: 2024-12-13 14:39:58 +0800
 img:
 coverImg:

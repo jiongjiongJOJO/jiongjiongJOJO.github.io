@@ -64,6 +64,8 @@ toc: false
 
 站点描述：专注于知识、技术分享的个人博客
 
+站点地址：http://blog.jojo.com/?source=blog_jojo_host
+
 站点头像：[点击下载](../assets/images/favicons/favicon.png)
 
 主人名字：囧囧JOJO

@@ -45,6 +45,25 @@ toc: false
       </div>
     </div>
   </section>
+
+  <section style="display: flex; align-items: center; padding: 10px; border-radius: 8px; transition: background-color 0.3s; cursor: pointer; background-color: transparent;"
+           onclick="window.open('https://blog.zhjh.top/?source=blog_jojo_host', '_blank')"
+           onmouseover="this.style.backgroundColor='rgba(255, 0, 255, 0.3)';"
+           onmouseout="this.style.backgroundColor='transparent'">
+    <div style="flex-shrink: 0; width: 48px; height: 48px; background-image: url('../assets/images/friendly_links/duanluan.jpg'); background-size: contain;"></div>
+    <div style="margin-left: 12px; min-width: 0;">
+      <a href="https://blog.zhjh.top/?source=blog_jojo_host" target="_blank" 
+         style="display: block; font-weight: 500; text-decoration: none; color: inherit;
+                white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">
+        duanluan 的博客
+      </a>
+      <div style="font-size: 0.9em; color: #666;
+                  display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;
+                  overflow: hidden; text-overflow: ellipsis; line-height: 1.4;">
+        书山有路勤为径，学海无涯苦作舟
+      </div>
+    </div>
+  </section>
 </div>
 
 

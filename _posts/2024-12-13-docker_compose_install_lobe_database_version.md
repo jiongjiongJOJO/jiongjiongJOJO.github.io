@@ -265,21 +265,21 @@ NEW_NEXT_AUTH_SECRET=xxxxxxxxx
 这边因为用到了Cloudfare R2，所以，我们的ssl文件也就直接从Cloudfare中获取吧。这里默认已经将域名解析到Cloudfare了。
 
 登陆Cloudfare后，打开[账户主页](https://dash.cloudflare.com/)，接着选择你的域名。
-![PixPin_2024-12-13_15-31-57.png](../assets/images/2024-12-13-docker_compose_install_lobe_database_version.md/PixPin_2024-12-13_15-31-57.png)
+![PixPin_2024-12-13_15-31-57.png](/assets/images/2024-12-13-docker_compose_install_lobe_database_version.md/PixPin_2024-12-13_15-31-57.png)
 
 接着选择`SSL/TLS`，然后选择`源服务器`，点击`创建证书`。
 
-![PixPin_2024-12-13_15-33-57.png](../assets/images/2024-12-13-docker_compose_install_lobe_database_version.md/PixPin_2024-12-13_15-33-57.png)
+![PixPin_2024-12-13_15-33-57.png](/assets/images/2024-12-13-docker_compose_install_lobe_database_version.md/PixPin_2024-12-13_15-33-57.png)
 
 在`主机名`一栏，删掉原有的内容，填写新的域名的前缀（比如你要搭建的域名为lobe.yourdormain.com，则输入lobe即可），其他参数默认即可，然后点击创建。
-![PixPin_2024-12-13_15-37-12.png](../assets/images/2024-12-13-docker_compose_install_lobe_database_version.md/PixPin_2024-12-13_15-37-12.png)
+![PixPin_2024-12-13_15-37-12.png](/assets/images/2024-12-13-docker_compose_install_lobe_database_version.md/PixPin_2024-12-13_15-37-12.png)
 
 创建完成后会在新的页面内显示你的`源证书`和`私钥`。
 其中，新建一个文件，名为`NEW_DOMAIN.pem`，将`源证书`的内容复制到里面。
 新建一个文件，名为`NEW_DOMAIN.key`，将`私钥`的内容复制到里面。
 
 注意，这里的`NEW_DOMAIN`需要替换为你的域名（例如：`lobe.yourdormain.com.pem`和`lobe.yourdormain.com.key`）。
-![PixPin_2024-12-13_15-41-07.png](../assets/images/2024-12-13-docker_compose_install_lobe_database_version.md/PixPin_2024-12-13_15-41-07.png)
+![PixPin_2024-12-13_15-41-07.png](/assets/images/2024-12-13-docker_compose_install_lobe_database_version.md/PixPin_2024-12-13_15-41-07.png)
 
 ### Cloudflare R2参数获取
 参照[官方文档](https://lobehub.com/zh/docs/self-hosting/advanced/s3/cloudflare-r2)获取对应的参数。
@@ -307,7 +307,7 @@ NEW_S3_PUBLIC_DOMAIN=https://0b33a03b5c993fd2f453379dc36558e5.r2.cloudflarestora
 1. 登陆Github，并访问[OAuth APP 创建](https://github.com/settings/applications/new)
 2. 填写应用名称（可以随意填写）、主页地址（你的域名，例如：https://lobe.jojo.host/ ）、认证回调地址（你域名下的回调地址，例如：https://lobe.jojo.host/api/auth/callback/github ），点击创建即可。
 3. 点击创建客户端密钥
-![PixPin_2024-12-13_16-03-19.png](../assets/images/2024-12-13-docker_compose_install_lobe_database_version.md/PixPin_2024-12-13_16-03-19.png)
+![PixPin_2024-12-13_16-03-19.png](/assets/images/2024-12-13-docker_compose_install_lobe_database_version.md/PixPin_2024-12-13_16-03-19.png)
 创建完成后就能看到显示的`Client ID`和`Client Secret`了，注意不要刷新网页，刷新后`Client Secret`就看不到了。
 
 参数一览：

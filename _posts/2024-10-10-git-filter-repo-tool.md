@@ -55,16 +55,16 @@ git filter-repo --path .idea --invert-paths
   <tbody>
     <tr>
       <td>
-        <img src="./../assets/images/2024-10-10-git-filter-repo-tool/Clip_2024-10-10_10-05-23.png" alt="Clip_2024-10-10_10-05-23.png" style="width:100%;">
+        <img src="/assets/images/2024-10-10-git-filter-repo-tool/Clip_2024-10-10_10-05-23.png" alt="Clip_2024-10-10_10-05-23.png" style="width:100%;">
       </td>
       <td>
-        <img src="./../assets/images/2024-10-10-git-filter-repo-tool/Clip_2024-10-10_10-07-09.png" alt="Clip_2024-10-10_10-07-09.png" style="width:100%;">
+        <img src="/assets/images/2024-10-10-git-filter-repo-tool/Clip_2024-10-10_10-07-09.png" alt="Clip_2024-10-10_10-07-09.png" style="width:100%;">
       </td>
     </tr>
   </tbody>
 </table>
 
-![Clip_2024-10-10_10-11-03.png](./../assets/images/2024-10-10-git-filter-repo-tool/Clip_2024-10-10_10-11-03.png)
+![Clip_2024-10-10_10-11-03.png](/assets/images/2024-10-10-git-filter-repo-tool/Clip_2024-10-10_10-11-03.png)
 
 从结果上看，它会把包含`.idea`目录的提交修改，并且会把这个提交之后的提交全都修改了。保留了commit结构树、提交时间、提交作者等信息。
 

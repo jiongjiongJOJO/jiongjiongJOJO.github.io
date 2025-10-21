@@ -12,7 +12,7 @@ toc: false
            onclick="window.open('https://www.cloudofficial.top/?source=blog_jojo_host', '_blank')"
            onmouseover="this.style.backgroundColor='rgba(255, 0, 255, 0.3)';"
            onmouseout="this.style.backgroundColor='transparent'">
-    <div style="flex-shrink: 0; width: 48px; height: 48px; background-image: url('../assets/images/friendly_links/Cloud.ico'); background-size: contain;"></div>
+    <div style="flex-shrink: 0; width: 48px; height: 48px; background-image: url('/assets/images/friendly_links/Cloud.ico'); background-size: contain;"></div>
     <div style="margin-left: 12px; min-width: 0;">
       <a href="https://www.cloudofficial.top/?source=blog_jojo_host" target="_blank" 
          style="display: block; font-weight: 500; text-decoration: none; color: inherit; 
@@ -31,7 +31,7 @@ toc: false
            onclick="window.open('https://smc.im/?source=blog_jojo_host', '_blank')"
            onmouseover="this.style.backgroundColor='rgba(255, 0, 255, 0.3)';"
            onmouseout="this.style.backgroundColor='transparent'">
-    <div style="flex-shrink: 0; width: 48px; height: 48px; background-image: url('../assets/images/friendly_links/Choi.ico'); background-size: contain;"></div>
+    <div style="flex-shrink: 0; width: 48px; height: 48px; background-image: url('/assets/images/friendly_links/Choi.ico'); background-size: contain;"></div>
     <div style="margin-left: 12px; min-width: 0;">
       <a href="https://smc.im/?source=blog_jojo_host" target="_blank" 
          style="display: block; font-weight: 500; text-decoration: none; color: inherit;
@@ -50,7 +50,7 @@ toc: false
            onclick="window.open('https://blog.zhjh.top/?source=blog_jojo_host', '_blank')"
            onmouseover="this.style.backgroundColor='rgba(255, 0, 255, 0.3)';"
            onmouseout="this.style.backgroundColor='transparent'">
-    <div style="flex-shrink: 0; width: 48px; height: 48px; background-image: url('../assets/images/friendly_links/duanluan.jpg'); background-size: contain;"></div>
+    <div style="flex-shrink: 0; width: 48px; height: 48px; background-image: url('/assets/images/friendly_links/duanluan.jpg'); background-size: contain;"></div>
     <div style="margin-left: 12px; min-width: 0;">
       <a href="https://blog.zhjh.top/?source=blog_jojo_host" target="_blank" 
          style="display: block; font-weight: 500; text-decoration: none; color: inherit;
@@ -85,6 +85,6 @@ toc: false
 
 站点地址：http://blog.jojo.com/?source=blog_jojo_host
 
-站点头像：[点击下载](../assets/images/favicons/favicon.png)
+站点头像：[点击下载](/assets/images/favicons/favicon.png)
 
 主人名字：囧囧JOJO
